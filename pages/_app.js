@@ -1,5 +1,5 @@
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
-import { SnackbarProvider } from 'notistack';
+import { SnackbarProvider } from 'notistack'; // for warning/error popup
 import { useEffect } from 'react';
 import '../styles/globals.css';
 import { StoreProvider } from '../utils/Store';

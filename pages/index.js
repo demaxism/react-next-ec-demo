@@ -62,6 +62,7 @@ export default function Home(props) {
   );
 }
 
+// Next data fetching func
 export async function getServerSideProps() {
   await db.connect();
   const featuredProductsDocs = await Product.find(
