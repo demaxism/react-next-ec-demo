@@ -1,3 +1,13 @@
+## Setup
+Add .env file in root directory:
+```
+MONGODB_URI=mongodb://localhost/ec-next-demo
+```
+
+launch mongodb
+```
+mongod --dbpath ~/my-db-path
+```
 
 ## Run it Locally
 ```
